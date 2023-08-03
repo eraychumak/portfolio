@@ -1,17 +1,17 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+import "./globals.css"
+import { JetBrains_Mono } from "next/font/google"
 
-const inter = Inter({ subsets: ['latin'] })
+const JBM_Font = JetBrains_Mono({ subsets: ["latin"] })
 
 export const metadata = {
-  title: 'Eray Chumak - Portfolio',
-  description: 'All about me.',
+  title: "Eray Chumak - Portfolio",
+  description: "All about me.",
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={JBM_Font.className}>{children}</body>
     </html>
   )
 }
