@@ -5,22 +5,30 @@ import Image from "next/image"
 export default function Home() {
   return (
     <>
-      <header>
-        <nav>
-          <ul>
+      <header className={styles.header}>
+        <nav className={styles.nav}>
+          <ul className={styles.links}>
             <li>
-              <a href="#">Home</a>
+              <a href="/" className={styles.active}>Home</a>
             </li>
-            <li>/</li>
+            <li className="noPointer separator">/</li>
             <li>
-              <a href="#">View profile on LinkedIn</a>
+              <a
+                href="https://linkedin.com/in/eray-chumak/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View profile on LinkedIn
+              </a>
             </li>
-            <li>/</li>
+            <li className="noPointer separator">/</li>
             <li>
-              <a href="#">Download my CV</a>
+              <a href="/cv.pdf" download>Download my CV (PDF)</a>
             </li>
           </ul>
-          <Image src="/logo.svg" width={32} height={32} alt="logo"/>
+          <a href="#" className={styles.logoContainer}>
+            <Image src="/logo.svg" width={32} height={32} alt="logo"/>
+          </a>
         </nav>
       </header>
       <main>
