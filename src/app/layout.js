@@ -1,12 +1,11 @@
-import "./globals.css"
-import { JetBrains_Mono } from "next/font/google"
+import "./globals.css";
 
-const JBM_Font = JetBrains_Mono({ subsets: ["latin"] })
+import { JBM_Font } from "../fonts";
 
 export const metadata = {
   title: "Eray Chumak - Portfolio",
-  description: "All about me.",
-}
+  description: "One-stop shop to learn more about me and get in touch.",
+};
 
 export default function RootLayout({ children }) {
   return (
