@@ -1,14 +1,20 @@
-'use client'
+"use client"
 
-import Image from 'next/image'
+import Image from "next/image";
+import styles from "./DecoratedPFP.module.css";
 
 export default function DecoratedPFP() {
-
   return (
-    <div>
-      <div/>
-      <Image src="/pfp.jpg" width={64} height={64} alt="pfp"/>
-      <div>
+    <div className={styles.container}>
+      <div className={styles.imgContainer}>
+        <Image
+          src="/pfp.jpg"
+          width={814}
+          height={1080}
+          alt="pfp"
+        />
+      </div>
+      <div className={styles.nameContainer}>
         <p>Eray Chumak</p>
       </div>
     </div>

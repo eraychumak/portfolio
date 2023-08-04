@@ -1,0 +1,51 @@
+.container {
+  position: relative;
+  max-width: 256px;
+  max-height: 256px;
+}
+
+.imgContainer, .imgContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.imgContainer {
+  aspect-ratio: 1 / 1;
+  padding: .3rem;
+  background: #fff;
+}
+
+.imgContainer img {
+  display: block;
+  object-fit: cover;
+  border: solid .3rem #228d93;
+}
+
+.nameContainer, .nameContainer p {
+  padding: .3rem;
+  border-radius: .4rem;
+}
+
+.nameContainer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  background: #fff;
+}
+
+.nameContainer p {
+  color: #228d93;
+  background: #e5f7ff;
+  border: solid .3rem #228d93;
+}
+
+
+@media only screen and (min-width: 800px) {
+  .container {
+    width: 256px;
+    height: 256px;
+  }
+}
