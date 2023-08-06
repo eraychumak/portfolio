@@ -12,6 +12,7 @@ export default function DecoratedPFP() {
           width={814}
           height={1080}
           alt="pfp"
+          priority
         />
       </div>
       <div className={styles.nameContainer}>
