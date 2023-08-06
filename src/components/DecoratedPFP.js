@@ -9,9 +9,9 @@ export default function DecoratedPFP() {
       <div className={styles.imgContainer}>
         <Image
           src="/pfp.jpg"
+          alt="Eray sitting on an escalator"
           width={814}
           height={1080}
-          alt="pfp"
           priority
         />
       </div>
