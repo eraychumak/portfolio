@@ -46,11 +46,6 @@
 
 .logoContainer img {
   display: block;
-  transition: transform 100ms ease-in-out;
-}
-
-.logoContainer img:hover {
-  transform: scale(1.1);
 }
 
 .landingBanner {
