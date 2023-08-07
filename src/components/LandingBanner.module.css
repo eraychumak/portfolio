@@ -1,0 +1,97 @@
+.landingBanner {
+  margin: 5dvw;
+  display: grid;
+  justify-items: center;
+  grid-template-areas: "pfp" "intro" "work";
+  gap: 5dvw;
+}
+
+.landingBanner h1 {
+  font-size: 2rem;
+}
+
+.landingBanner h2 {
+  font-size: 1.5rem;
+}
+
+.pfpContainer {
+  grid-area: pfp;
+}
+
+.intro, .work {
+  padding: 5dvh 2rem;
+  background: linear-gradient(to right, #fff, #fff);
+  border-radius: 1rem;
+  border: solid .3rem #000;
+  outline: .1rem solid #fff;
+  width: 100%;
+}
+
+.intro {
+  grid-area: intro;
+}
+
+.intro .position {
+  margin: 1rem 0;
+  font-weight: bolder;
+}
+
+.intro .desc {
+  line-height: 1.5rem;
+  max-width: 40ch;
+}
+
+.intro .desc p:nth-child(1) {
+  margin-bottom: 1rem;
+}
+
+.phonetics {
+  color: #27a4aa;
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.work {
+  grid-area: work;
+}
+
+.work p {
+  margin: 1rem 0;
+  line-height: 2rem;
+  max-width: 51ch;
+}
+
+.work a {
+  display: inline-block;
+  text-decoration: none;
+  background: #eed36c;
+  line-height: normal;
+  color: #000;
+  padding: 0 .2rem;
+  border-radius: .5rem;
+  font-weight: bolder;
+  border: solid .2rem #000;
+  transition: background 100ms ease-in-out;
+}
+
+.work a:hover {
+  background: #ddc25b;
+}
+
+@media only screen and (min-width: 800px) {
+  .landingBanner {
+    grid-template-columns: max-content 1fr;
+    justify-items: flex-start;
+    grid-template-areas: "pfp intro" "work work";
+    gap: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .landingBanner {
+    grid-template-columns: max-content 1fr 1fr;
+    justify-items: flex-start;
+    grid-template-areas: "pfp intro work";
+    gap: 1rem;
+  }
+}

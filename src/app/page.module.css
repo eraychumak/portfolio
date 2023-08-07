@@ -1,116 +1,10 @@
-.header {
-  background: #1b1f28;
-  color: #eee;
-  padding: 1rem 5dvw;
-  font-weight: bold;
-  white-space: nowrap;
-}
-
-.header ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav {
-  justify-content: space-between;
-  display: flex;
-  gap: 1rem;
-  overflow-x: auto;
-  align-items: center;
-}
-
-.links {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-}
-
-.links a {
-  padding: .3rem;
-  border-radius: .3rem;
-  color: #d4bfff;
-  text-decoration: none;
-  transition: 100ms ease-in-out;
-  transition-property: background, color;
-}
-
-.links a:not(.active):hover {
-  background: #2c2f39;
-}
-
-.links a.active {
-  background: #d4bfff;
-  color: #1b1f28;
-}
-
-.logoContainer img {
-  display: block;
-}
-
-.landingBanner {
-  margin: 5dvw;
-  display: grid;
-  justify-items: center;
-  grid-template-areas: "pfp" "intro";
-  gap: 5dvw;
-}
-
-.pfpContainer {
-  grid-area: pfp;
-}
-
-.intro {
-  grid-area: intro;
-  width: 100%;
-  padding: 1rem;
-  background: #fff;
-  border-radius: 1rem;
-  border: solid .3rem #000;
-}
-
-.intro h1 {
-  font-size: 2rem;
-}
-
-.intro .position {
-  margin: 1rem 0;
-  font-weight: bolder;
-}
-
-.intro p {
-  max-width: 45ch;
-}
-
-.phonetics {
-  color: #27a4aa;
-  font-size: .8rem;
-  font-style: italic;
-}
-
-.intro button {
-  margin-top: 1rem;
-  background: #eed36c;
-  color: #000;
-  padding: .5rem;
-  border-radius: .5rem;
-  font-weight: bolder;
-  border: solid .3rem #000;
-  transition: background 100ms ease-in-out;
-}
-
-.intro button:hover {
-  background: #ddc25b;
-  cursor: pointer;
-}
-
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: .5rem;
   text-align: center;
-  padding: 0 5dvw;
+  padding: 0 5dvw 5dvw 5dvw;
   color: #fff;
   font-size: .8rem;
 }
@@ -153,12 +47,4 @@
 
 .footer a:hover {
   background: #2c2f39;
-}
-
-@media only screen and (min-width: 800px) {
-  .landingBanner {
-    grid-template-columns: 1fr max-content;
-    grid-template-areas: "intro pfp";
-    gap: 2rem;
-  }
 }
