@@ -1,7 +1,8 @@
-import DecoratedPFP from "@/components/DecoratedPFP"
-import styles from "./page.module.css"
 import Image from "next/image"
 
+import DecoratedPFP from "@/components/DecoratedPFP"
+
+import styles from "./page.module.css"
 import { JBM_Font, Roboto_Font } from "../fonts";
 
 export default function Home() {
