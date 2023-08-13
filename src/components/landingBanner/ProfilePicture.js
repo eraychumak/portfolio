@@ -1,12 +1,12 @@
 "use client"
 
 import { useCallback, useState } from "react";
-import { JBM_Font, Roboto_Font } from "@/fonts";
+import Image from "next/image";
+import { Roboto_Font } from "@/fonts";
 
-import ProfilePicture from "./ProfilePicture";
-import styles from "./LandingBanner.module.css";
+import styles from "./ProfilePicture.module.css";
 
-export default function LandingBanner() {
+export default function ProfilePicture() {
   const [typo, setTypo] = useState("curious curious");
 
   const typoHover = useCallback(() => {
@@ -14,12 +14,22 @@ export default function LandingBanner() {
   }, [setTypo]);
 
   return (
-    <section className={styles.landingBanner}>
-      <article className={styles.pfpContainer}>
-        <ProfilePicture/>
-      </article>
-      <article className={styles.intro}>
-        <h1>Hi, I&apos;m Eray</h1>
+    <div className={styles.intro}>
+      <div className={styles.pfpContainer}>
+        <Image
+          className={styles.pfp}
+          src="/pfp.jpg"
+          alt="Eray sitting on an escalator"
+          width={814}
+          height={1080}
+          priority
+        />
+      </div>
+      <div className={styles.available}>
+        <p className={styles.Roboto_Font}>Great news! I&apos;m accepting new projects</p>
+      </div>
+      <div className={styles.content}>
+        <h1>Hello, I&apos;m Eray</h1>
         <p className={styles.phonetics}>(pronounced Air-I)</p>
         <p className={`${Roboto_Font.className} ${styles.position}`}>
           Frontend Developer
@@ -32,15 +42,7 @@ export default function LandingBanner() {
             I&apos;m a <span title="I was just testing you!" onMouseEnter={typoHover}>{typo}</span> individual with four eyes, which is advantageous for that extra mile towards detail.
           </p>
         </div>
-      </article>
-      <article className={styles.work}>
-        <h1>Let&apos;s work together 🧑‍💻</h1>
-        <p className={Roboto_Font.className}>
-          I am open to new contracts and projects to work on so do reach out to my
-          email at <a href="mailto:eraychumak_@outlook.com" className={JBM_Font.className}>eraychumak_@outlook.com</a> and
-          we can discuss further about working together.
-        </p>
-      </article>
-    </section>
+      </div>
+    </div>
   );
 }

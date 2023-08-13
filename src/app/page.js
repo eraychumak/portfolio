@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import LandingBanner from "@/components/LandingBanner";
+import LandingBanner from "@/components/landingBanner";
 
 import styles from "./page.module.css";
 
