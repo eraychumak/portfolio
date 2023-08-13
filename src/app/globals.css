@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  background-image: linear-gradient(#1b1f28 .2rem, transparent .2rem), linear-gradient(to right, #1b1f28 .2rem, transparent .2rem);
+  background-image: linear-gradient(#1f222c .2rem, transparent .2rem), linear-gradient(to right, #1f222c .2rem, transparent .2rem);
   background-size: 4dvh 4dvh;
   background-color: #222733;
   opacity: 0;
