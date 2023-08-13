@@ -3,6 +3,7 @@ export default function robots() {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: "/cv.pdf"
     },
     sitemap: "https://eraychumak.dev/sitemap.xml",
   }
