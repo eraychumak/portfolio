@@ -26,9 +26,6 @@ export default function Header() {
           <li className="noPointer separator">
             <p>/</p>
           </li>
-          <li>
-            <a href="/cv.pdf" download>Download my CV (PDF)</a>
-          </li>
         </ul>
       </nav>
     </header>

@@ -2,8 +2,7 @@ export default function robots() {
   return {
     rules: {
       userAgent: "*",
-      allow: "/",
-      disallow: "/cv.pdf"
+      allow: "/"
     },
     sitemap: "https://eraychumak.dev/sitemap.xml",
   }
