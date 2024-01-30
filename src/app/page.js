@@ -17,7 +17,7 @@ export default function Home() {
             This site is open-source, view the source-code
             on my GitHub <a href="https://github.com/eraychumak/portfolio" target="_blank" rel="noopener noreferrer">repository</a>
           </p>
-          <p>Copyright &copy; 2023 Eray Chumak</p>
+          <p>Copyright &copy; 2024 Eray Chumak</p>
         </footer>
       </main>
     </>
