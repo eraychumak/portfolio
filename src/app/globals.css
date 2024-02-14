@@ -10,19 +10,41 @@ html, body {
 }
 
 body {
-  background-image: linear-gradient(#1f222c .2rem, transparent .2rem), linear-gradient(to right, #1f222c .2rem, transparent .2rem);
-  background-size: 4dvh 4dvh;
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  grid-template-rows: 1fr auto;
+  background-image: linear-gradient(#1f222c .1rem, transparent .1rem), linear-gradient(to right, #1f222c .1rem, transparent .1rem);
+  background-size: 4svh 4svh;
   background-color: #222733;
-  opacity: 0;
-  animation: appear 500ms ease-in-out forwards;
+  font-family: var(--font-padauk);
+  font-weight: normal;
+  color: #fff;
 }
 
-.noPointer {
-  pointer-events: none;
+main {
+  grid-column: 2;
+  overflow: auto;
 }
 
-@keyframes appear {
-  to {
-    opacity: 1;
+a {
+  text-decoration: none;
+  color: #D4BFFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: var(--font-heebo);
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr auto;
   }
 }

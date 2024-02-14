@@ -1,25 +1,39 @@
-import Header from "@/components/Header";
-import LandingBanner from "@/components/landingBanner";
+import Image from "next/image";
 
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <>
-      <Header/>
-      <main>
-        <LandingBanner/>
-        <footer className={styles.footer}>
-          <div className={styles.wip}>
-            <p>Excuse the mess ^_^. This site is work in progress! 🏗️🧑‍💻</p>
-          </div>
+    <main className={styles.container}>
+      <h1>Eray Chumak</h1>
+      <section className={styles.intro}>
+        <article className={styles.desc}>
           <p>
-            This site is open-source, view the source-code
-            on my GitHub <a href="https://github.com/eraychumak/portfolio" target="_blank" rel="noopener noreferrer">repository</a>
+            Hi, I&apos;m <span className={styles.pronounce} title="Pronounced Air-i">Eray</span>, a &lt;<span className={styles.highlight1}>frontend developer</span>&gt; living
+            in North West, England. I like working by myself or in a
+            team, building useful &lt;<span className={styles.highlight2}>apps for the web</span>&gt;.
           </p>
-          <p>Copyright &copy; 2024 Eray Chumak</p>
-        </footer>
-      </main>
-    </>
+          <p>
+            I am a curious individual with
+            not two but four eyes, which is
+            advantageous for that extra mile
+            towards detail.
+          </p>
+        </article>
+        <article className={styles.pfp}>
+          <Image
+            className={styles.pfp}
+            src="/pfp.jpg"
+            alt="Eray sitting on an escalator"
+            width={814}
+            height={1080}
+            priority
+          />
+        </article>
+      </section>
+      <div className={styles.wip}>
+        <p>Some things may not function ^_^. This site is work in progress! 🏗️🧑‍💻</p>
+      </div>
+    </main>
   )
 }
