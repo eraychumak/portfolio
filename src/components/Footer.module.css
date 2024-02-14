@@ -1,0 +1,13 @@
+.container {
+  grid-column: 1 / 3;
+  grid-row: 2;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid .1rem #000;
+  background: #39404B;
+  padding: .5rem;
+  font-size: .8rem;
+}
