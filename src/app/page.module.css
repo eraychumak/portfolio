@@ -1,24 +1,44 @@
 .container {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 4rem;
   padding: 2rem;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: center;
+}
+
+.header p {
+  color: var(--color-text-secondary);
+  color: #EED36C;
 }
 
 .intro {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
+  align-items: center;
+  hyphens: auto;
+  text-align: justify;
 }
 
 .desc {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  font-size: 1.4rem;
+  max-width: 65ch;
+  font-size: 1.25rem;
+}
+
+.quote {
+  max-width: 50ch;
 }
 
 .pronounce {
   text-decoration: underline dotted;
+  text-underline-offset: .5rem;
 }
 
 .highlight1 {
@@ -29,37 +49,36 @@
   color: #f36ab9;
 }
 
+.pfp {
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  border-radius: 50%;
+
+  outline: solid #fff;
+  outline-offset: 2px;
+  outline-width: 2px;
+}
+
 .pfp img {
   width: 100%;
-  max-width: 350px;
-  height: 250px;
+  height: 100%;
+  transform: scale(4) translate(4%, 25%);
   object-fit: cover;
   border-radius: 1rem;
 }
 
-.wip {
-  align-self: start;
-  border-radius: .5rem;
-  border: solid .3rem #000;
-  background: repeating-linear-gradient(
-    45deg,
-    #000,
-    #000 1rem,
-    yellow 1rem,
-    yellow 2rem
-  );
+.quote {
+  background: #d9ffb6;
+  color: #000;
+  padding: 1rem;
+  position: relative;
 }
 
-.wip p {
-  text-align: center;
-  padding: .5rem;
-  color: #fff;
-  background: #000000ee;
-  font-weight: bold;
-}
-
-@media only screen and (min-width: 1000px) {
-  .intro {
-    grid-template-columns: 60ch 1fr;
-  }
+.quote svg {
+  position: absolute;
+  top: 0;
+  right: -.2rem;
+  transform: translate(50%, -50%) rotate(20deg);
+  fill: white;
 }
