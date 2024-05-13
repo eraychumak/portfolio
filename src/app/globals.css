@@ -1,3 +1,8 @@
+:root {
+  --color-text-primary: #fff;
+  --color-text-secondary: #bbb;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,6 +23,7 @@ body {
   background-color: #222733;
   font-family: var(--font-padauk);
   font-weight: normal;
+  text-wrap: pretty;
   color: #fff;
 }
 
@@ -36,9 +42,9 @@ a:hover {
 }
 
 h1 {
-  font-family: var(--font-heebo);
+  font-family: var(--font-sansita-swashed);
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 @media only screen and (min-width: 1000px) {
