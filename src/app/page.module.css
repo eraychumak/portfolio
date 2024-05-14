@@ -23,8 +23,6 @@
   flex-direction: column;
   gap: 2rem;
   align-items: center;
-  hyphens: auto;
-  text-align: justify;
 }
 
 .desc {
