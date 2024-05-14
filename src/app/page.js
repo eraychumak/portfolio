@@ -38,6 +38,10 @@ export default function Home() {
         </section>
       </section>
       <Timeline/>
+      <section className={styles.shallWe}>
+        <h2>Shall we?</h2>
+        <p>I&apos;m currently open to frontend design and development role opportunities, freelancing/client work. This can be in the office, hybrid, or remote <i>(Full/Part Time)</i>.</p>
+      </section>
     </main>
   )
 }
