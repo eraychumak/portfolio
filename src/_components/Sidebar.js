@@ -14,9 +14,16 @@ import EnvelopeIcon from "@heroicons/react/24/outline/EnvelopeIcon";
 import styles from "./Sidebar.module.css";
 
 function isActive(href, currentPath) {
-  if (href === currentPath) {
-    return styles.active;
+  if (href === "/") {
+    if (currentPath === href) {
+      return styles.active;
+    }
+  } else {
+    if (currentPath.startsWith(href)) {
+      return styles.active;
+    }
   }
+
 
   return "";
 }
