@@ -1,0 +1,21 @@
+.container {
+  padding: 1rem 0;
+  border-top: solid .1rem #d4bfff;
+}
+
+.container h6 {
+  font-family: var(--font-sourcecode-pro);
+  margin-bottom: 2rem;
+}
+
+.props {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: solid .1rem #d4bfff;
+  padding: 0 1rem;
+}
+
+.tag {
+  color: #ACB2BF;
+}
