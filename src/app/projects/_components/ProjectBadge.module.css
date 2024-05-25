@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  gap: 1rem;
+}
+
+.badge {
+  background: #f36ab9;
+  padding: 0 .5rem;
+  font-weight: bold;
+  border-radius: 5rem;
+}
