@@ -1,0 +1,124 @@
+import Image from "next/image";
+
+import ProjectProps from "@/app/projects/_components/ProjectProps";
+import ProjectBadge from "@/app/projects/_components/ProjectBadge";
+
+<article>
+
+# Mark This For Me
+
+<ProjectBadge label="Personal Project"/>
+
+<Image src="/assets/projects/mtfm/preview.png" width="1903" height="1065"/>
+
+## Background
+
+This project began with a problem that I personally faced as a
+student at Edge Hill University. You are given a brief for each
+assignment and your submission must align with it.
+
+On top of the planning that goes into an assignment, reviewing
+your assignment against marking criteria is still part of the
+process to reassure yourself that you're on the right track. However,
+this can be a lonely process as sharing your work with others can be
+prohibited by universities.
+
+This review process can become repetitive, progressively
+consume more time as the assignment grows, and there is risk of
+missing something.
+
+> I needed an extra pair of eyes that can double check my assignments for me.
+
+### Investigation
+
+There are tools to help students with their assignments already but the
+majority rely on real human markers/writers. This process can
+take time and usually it is behind a paywall. Moreover, the services
+often offer writing assignments for students, which is an area I wanted
+to avoid as much as possible.
+
+Advancements with AI and its accessibility allowed me to test a possible
+solution to my problem. I formed a quick prompt and threw my assignment and
+marking criteria into it.
+
+...and?
+
+It worked. *Almost*.
+
+It spat out constructive feedback with positives and negatives for my
+assignment. However, it struggled identifying references making it one
+of the challenges/limitations for now.
+
+### Goals
+
+Given the brief background and investigation, overall goals were formed for
+the new platform tool:
+
+- Make it easy to access and use
+- Uphold academic integrity by focusing on feedback instead of
+  spoon-feeding students with answers.
+
+## Research
+
+I embarked on designing the UI using Figma and developing the first MVP with NextJS.
+
+I designed two ad-hoc quantitative surveys, each with one question. The surveys
+were published on SnapChat for the entire year group *(2024)* at Edge Hill
+University, which targetted students across various degrees.
+
+### Survey 1 (24 Oct. 2023)
+
+<details>
+  <summary>Preview question post</summary>
+  <Image src="/assets/projects/mtfm/q1.jpg" width="599" height="1065"/>
+</details>
+
+<Image src="/assets/projects/mtfm/q1_results.png" width="467" height="175"/>
+
+### Survey 2 (26 Jan. 2024)
+
+<details>
+  <summary>Preview question post</summary>
+  <Image src="/assets/projects/mtfm/q2.png" width="492" height="984"/>
+</details>
+
+<Image src="/assets/projects/mtfm/q2_results.png" width="467" height="175"/>
+
+### Discussion
+
+The results show a total of 127 responses for the first survey and 192 responses
+for the second survey. At the time of writing this, only the data for the second
+survey shows 1036 total views. The results show the majority of respondents
+are not satisfied with the feedback they currently receive on their
+assignments. Additionally, the majority of respondents may find AI useful to
+access instant feedback for their assignments.
+
+The survey does not represent actual interaction with the new platform. However,
+it can further support the motivations for Mark This For Me as an additional tool
+for students to access feedback whilst upholding academic integrity.
+
+</article>
+
+<ProjectProps data={[
+  {
+    label: "Name",
+    value: "Mark This For Me"
+  },
+  {
+    label: "Check it out",
+    link: "https://markthisforme.com",
+    value: "markthisforme.com"
+  },
+  {
+    label: "Summary",
+    value: "Assignment feedback is limited, so I’ve created a platform powered by AI to help students access personalised and instant feedback anytime to improve motivation and unlock new opportunities for success."
+  },
+  {
+    label: "Technologies",
+    value: "NextJS, Vercel, Firebase, Git, APIs, OpenAI, Stripe, Figma"
+  },
+  {
+    label: "Date",
+    value: "Aug. 2023"
+  },
+]}/>
