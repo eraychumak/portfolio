@@ -52,6 +52,7 @@
 
 .nav {
   display: flex;
+  gap: 1rem;
   flex-direction: column;
   background: #23252A;
 }
@@ -70,7 +71,7 @@
 
 .nav p {
   width: 100%;
-  text-align: right;
+  /* text-align: right; */
 }
 
 .nav span {
@@ -82,7 +83,7 @@
   grid-template-columns: 1rem 1fr;
   align-items: center;
   gap: .5rem;
-  color: #ACB2BF;
+  color: #fff;
   padding: .5rem 1rem;
   text-decoration: none;
 }
@@ -94,6 +95,10 @@
 .nav a.active {
   background: #d4bfff;
   color: #000;
+}
+
+.cta {
+  /* color: #EED36C !important; */
 }
 
 @media only screen and (min-width: 1000px) {

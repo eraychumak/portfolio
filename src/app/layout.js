@@ -1,8 +1,8 @@
 import { Heebo, Padauk, Source_Code_Pro, Sansita_Swashed } from "next/font/google";
 
-import SEO from "@/components/SEO";
-import Sidebar from "@/components/Sidebar";
-import Footer from "@/components/Footer";
+import SEO from "@/_components/SEO";
+import Sidebar from "@/_components/Sidebar";
+import Footer from "@/_components/Footer";
 
 import "./globals.css";
 

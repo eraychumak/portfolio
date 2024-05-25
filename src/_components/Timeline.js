@@ -1,8 +1,9 @@
-import styles from "./Timeline.module.css";
-
-import timeline from "@/_data/timeline.json";
-import ExternalLink from "./ExternalLink";
 import Image from "next/image";
+
+import ExternalLink from "./ExternalLink";
+import timeline from "@/_data/timeline.json";
+
+import styles from "./Timeline.module.css";
 
 export default function Timeline() {
   return (

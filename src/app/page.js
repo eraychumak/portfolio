@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ChatBubbleBottomCenterIcon from "@heroicons/react/24/outline/ChatBubbleBottomCenterIcon";
 
-import Timeline from "./_components/Timeline";
+import Timeline from "../_components/Timeline";
 
 import styles from "./page.module.css";
 
