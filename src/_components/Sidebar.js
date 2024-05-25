@@ -31,10 +31,10 @@ export default function Sidebar() {
           <Bars3Icon width="2rem"/>
         </button>
         <section className={styles.shrink}>
-          <Link href="/" className={styles.active}>
+          <Link href="/" className={isActive("/", pathname)}>
             <HomeIcon width="1.5rem"/>
           </Link>
-          <Link href="#">
+          <Link href="/projects/dev" className={isActive("/projects/dev", pathname)}>
             <CodeBracketIcon width="1.5rem"/>
           </Link>
           <Link href="#">
