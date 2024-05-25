@@ -1,0 +1,47 @@
+.container {
+  padding: 2rem;
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.projects {
+  display: grid;
+  gap: 1rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  border: solid .1rem #fff;
+  background: #23252A;
+  border-radius: .5rem;
+  overflow: hidden;
+  color: #fff;
+}
+
+.project:hover {
+  text-decoration: none;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
