@@ -30,6 +30,7 @@ body {
 main {
   grid-column: 2;
   overflow: auto;
+  scrollbar-width: thin;
 }
 
 a {
