@@ -4,8 +4,16 @@
 }
 
 .badge {
-  background: #f36ab9;
+  background: #34363B;
   padding: 0 .5rem;
   font-weight: bold;
   border-radius: 5rem;
+}
+
+.personalProject {
+  background: #f36ab9;
+}
+
+.client {
+  background: #933838;
 }
