@@ -20,6 +20,13 @@ export default function PageProjectsDev() {
               <ProjectBadge label="Personal Project"/>
             </div>
           </Link>
+          <Link href="/projects/dev/dmiu" className={styles.project}>
+            <Image src="/assets/projects/dmiu/preview.jpg" width="710" height="1065" alt=""/>
+            <div className={styles.content}>
+              <p>Electronic Visitor Sign-In/Out System</p>
+              <ProjectBadge label="Client Project"/>
+            </div>
+          </Link>
         </section>
       </section>
     </main>
