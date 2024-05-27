@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { Heebo, Padauk, Source_Code_Pro, Sansita_Swashed } from "next/font/google";
 
 import SEO from "@/_components/SEO";
@@ -52,6 +53,7 @@ export default function RootLayout({ children }) {
         {children}
         <Footer/>
         <SEO/>
+        <Analytics/>
       </body>
     </html>
   )
