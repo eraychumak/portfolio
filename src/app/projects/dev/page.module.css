@@ -27,10 +27,15 @@
 
 .project img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  max-height: 200px;
+  object-fit: cover;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
   padding: 1rem;
 }
 

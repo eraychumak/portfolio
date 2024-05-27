@@ -35,6 +35,8 @@
 .container img {
   width: 100%;
   height: auto;
+  max-height: 500px;
+  object-fit: cover;
   border-radius: .5rem;
   border: solid .2rem #fff;
 }
@@ -55,6 +57,10 @@
   font-style: italic;
 }
 
+.content aside {
+  justify-self: start;
+}
+
 @media only screen and (min-width: 1000px) {
   .content {
     grid-template-columns: 2fr 1fr;
@@ -64,6 +70,6 @@
   .content aside {
     top: 0;
     position: sticky;
-    align-self: start
+    align-self: start;
   }
 }
