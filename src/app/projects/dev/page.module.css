@@ -4,6 +4,15 @@
 
 .header {
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: center;
+}
+
+.header p {
+  color: var(--color-text-secondary);
+  color: #EED36C;
 }
 
 .projects {

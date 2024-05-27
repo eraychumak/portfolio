@@ -9,6 +9,7 @@ export default function PageProjectsDev() {
     <main className={styles.container}>
       <header className={styles.header}>
         <h1>Dev. Projects</h1>
+        <p>Learn about my experience and workflow</p>
       </header>
       <section>
         <h2>2023</h2>
