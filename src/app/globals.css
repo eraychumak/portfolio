@@ -22,8 +22,6 @@ body {
   font-weight: normal;
   text-wrap: pretty;
   color: #fff;
-  background: linear-gradient(45deg,transparent 14%, #1f222c 15%, #1f222c 20%, transparent 21%, transparent 79%, #1f222c  80%, #1f222c 85%, transparent 86%),linear-gradient(135deg,transparent 14%, #1f222c 15%, #1f222c 20%, transparent 21%, transparent 79%, #1f222c  80%, #1f222c 85%, transparent 86%), radial-gradient(transparent 14%, #1f222c 15%, #1f222c 25%, transparent 26%);
-  background-size: 1em 1em;
   background-color: #222733;
 }
 
