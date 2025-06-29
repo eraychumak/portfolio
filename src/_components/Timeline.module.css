@@ -12,16 +12,17 @@
   gap: 1rem;
   margin: 1rem;
   padding-left: 1rem;
-  border-left: solid 1px #fff;
+  border-left: solid 1px var(--color-text-secondary);
 }
 
 .event {
   display: flex;
   flex-direction: column;
   gap: .5rem;
-  background: #ffffff11;
+  background: #1B1F28;
   border-radius: .5rem;
   padding: 1rem;
+  border: 1px solid #ffffff55;
 }
 
 .event img {

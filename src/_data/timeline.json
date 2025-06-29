@@ -6,8 +6,19 @@
         {
           "month": "June 2024 - current",
           "type": "Role: Software Engineer",
-          "desc": "At interactive investor.",
-          "links": []
+          "desc": "Working as a Software Engineer at Interactive Investor, an investment platform in the UK. Contributing to the development and maintenance of financial services technology.",
+          "links": [
+            {
+              "url": "https://www.ii.co.uk",
+              "label": "Official Website"
+            }
+          ],
+          "thumbnail": {
+            "width": "600",
+            "height": "400",
+            "url": "/assets/ii.jpg",
+            "alt": "A logo I did for Kate Fairclough"
+          }
         }
       ]
     },
