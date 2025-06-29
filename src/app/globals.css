@@ -22,7 +22,12 @@ body {
   font-weight: normal;
   text-wrap: pretty;
   color: #fff;
-  background-color: #222733;
+  background:
+    radial-gradient(circle at 15% 85%, #eed36c26 0%, transparent 40%),
+    radial-gradient(circle at 85% 15%, #49c6cc33 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, #d4bfff1a 0%, transparent 60%),
+    radial-gradient(circle at 75% 80%, #87de751f 0%, transparent 45%),
+    linear-gradient(135deg, #212733 0%, #1B1F28 100%);
 }
 
 main {

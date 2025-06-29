@@ -19,10 +19,10 @@
   display: flex;
   flex-direction: column;
   gap: .5rem;
-  background: #1B1F28;
+  background: #1B1F2888;
   border-radius: .5rem;
   padding: 1rem;
-  border: 1px solid #ffffff55;
+  border: 1px solid #ffffff88;
 }
 
 .event img {
