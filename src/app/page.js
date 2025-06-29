@@ -12,11 +12,12 @@ export default function Home() {
         <article className={styles.pfp}>
           <Image
             className={styles.pfp}
-            src="/pfp.jpg"
+            src="/pfp.avif"
             alt="Eray sitting on an escalator"
-            width={814}
-            height={1080}
+            width={3072}
+            height={4080}
             priority
+            unoptimized
           />
         </article>
         <h1>Eray Chumak</h1>
