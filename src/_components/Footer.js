@@ -7,7 +7,7 @@ export default function Footer() {
         This site is open-source, view the source-code
         in my GitHub <a href="https://github.com/eraychumak/portfolio" target="_blank" rel="noopener noreferrer">repository</a>.
       </p>
-      <p>Copyright &copy; 2024 Eray Chumak. All rights reserved.</p>
+      <p>Copyright &copy; 2025 Eray Chumak. All rights reserved.</p>
     </section>
   );
 }
