@@ -71,25 +71,14 @@ export default function Sidebar() {
             <p>Designs/Graphics</p>
           </Link>
         </section>
-        {/* <section>
-          <p className={styles.tag}>CLIENT AREA</p>
-          <Link href="/client">
-            <UserIcon width="1rem"/>
-            <p>Enquire</p>
-          </Link>
-          <Link href="/client">
-            <UserIcon width="1rem"/>
-            <p>Onboarding Form</p>
-          </Link>
-        </section> */}
         <div className={styles.fill}/>
         <section>
           <p className={styles.tag}>LINKS</p>
-          <Link href="#">
+          <Link href="https://www.linkedin.com/in/eray-chumak/" target="_blank" rel="noreferrer">
             <ArrowTopRightOnSquareIcon width="1rem"/>
             <p>LinkedIn (@eray-chumak)</p>
           </Link>
-          <Link href="#">
+          <Link href="https://github.com/eraychumak" target="_blank" rel="noreferrer">
             <ArrowTopRightOnSquareIcon width="1rem"/>
             <p>My GitHub (@eray_chumak)</p>
           </Link>
