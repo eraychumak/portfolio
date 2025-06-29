@@ -6,11 +6,30 @@ import Sidebar from "@/_components/Sidebar";
 import Footer from "@/_components/Footer";
 
 import "./globals.css";
+import { Metadata } from "next";
 
-export const metadata = {
-  title: "Eray Chumak - Web Design & Development",
-  description: "Find out about what I've done and what I'm working on now. Reach out if you want to hire me or if you need a website, a makeover for your current site, or a new mobile app.",
-  keywords: ["Frontend", "Developer", "Software", "Eray", "Chumak", "Engineer", "Programmer"],
+export const metadata: Metadata = {
+  title: "Eray Chumak - Software Engineer",
+  description: "Experienced Software Engineer specializing in React, Next.js, and AWS. Building modern web applications with cutting-edge technologies. View my portfolio and development projects.",
+  authors: [{ name: "Eray Chumak" }],
+  creator: "Eray Chumak",
+  publisher: "Eray Chumak",
+  openGraph: {
+    type: "website",
+    locale: "en_GB",
+    url: "https://eraychumak.dev",
+    title: "Eray Chumak - Software Engineer",
+    description: "Experienced Software Engineer specializing in React, Next.js, and AWS. Building modern web applications with cutting-edge technologies.",
+    siteName: "Eray Chumak Portfolio",
+    images: [
+      {
+        url: "/pfp.avif",
+        width: 400,
+        height: 400,
+        alt: "Eray Chumak - Software Engineer",
+      },
+    ],
+  },
 };
 
 export const viewport = {
