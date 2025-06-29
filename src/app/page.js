@@ -21,27 +21,30 @@ export default function Home() {
           />
         </article>
         <h1>Eray Chumak</h1>
-        <p>BSc (Hons) Web Design & Development</p>
+        <p className={styles.jobTitle}>Software Engineer</p>
+        <p className={styles.degree}>BSc (Hons) Web Design & Development</p>
       </header>
       <section className={styles.intro}>
         <p className={styles.desc}>
-          Hi, I&apos;m <span className={styles.pronounce} title="Pronounced Air-i">Eray</span>, a &lt;<span className={styles.highlight1}>frontend developer</span>&gt; living
-          in North West, England. I like working by myself or in a
-          team, building useful &lt;<span className={styles.highlight2}>apps for the web</span>&gt;.
-          I am a curious individual with
-          not two but four eyes, which is
-          advantageous for that extra mile
-          towards detail.
+          Hi, I&apos;m <span className={styles.pronounce} title="Pronounced Air-i">Eray</span>, a &lt;<span className={styles.highlight1}>software engineer</span>&gt; based
+          in North West England. I enjoy working both independently and collaboratively,
+          building useful &lt;<span className={styles.highlight2}>web applications</span>&gt; that solve real problems.
+          I&apos;m a curious individual with
+          not two but four eyes, giving me
+          an advantage when it comes to
+          attention to detail.
         </p>
         <section className={styles.quote}>
           <ChatBubbleBottomCenterIcon width="2rem"/>
-          <p>I follow a <i>&apos;You can learn anything if you put enough time and know how to search&apos;</i> approach.</p>
+          <p>I follow a <i>&apos;You can learn anything with enough time and the right approach to research&apos;</i> philosophy.</p>
         </section>
       </section>
+      <hr/>
       <Timeline/>
+      <hr/>
       <section className={styles.shallWe}>
         <h2>Shall we?</h2>
-        <p>I&apos;m currently open to frontend design and development role opportunities, freelancing/client work. This can be in the office, hybrid, or remote <i>(Full/Part Time)</i>.</p>
+        <p>I&apos;m currently open to frontend design and development opportunities, as well as freelancing and client work. I&apos;m available for office-based, hybrid, or remote positions <i>(Full/Part Time)</i>.</p>
       </section>
     </main>
   )
