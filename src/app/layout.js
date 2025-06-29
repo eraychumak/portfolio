@@ -1,5 +1,5 @@
 import { Analytics } from "@vercel/analytics/react"
-import { Heebo, Padauk, Source_Code_Pro, Sansita_Swashed } from "next/font/google";
+import { Sansita_Swashed, Atkinson_Hyperlegible } from "next/font/google";
 
 import SEO from "@/_components/SEO";
 import Sidebar from "@/_components/Sidebar";
@@ -24,27 +24,15 @@ const fontTemp = Sansita_Swashed({
   display: "swap"
 });
 
-const fontHeebo = Heebo({
+const fontAtkinson = Atkinson_Hyperlegible({
   subsets: ["latin"],
-  variable: "--font-heebo",
+  variable: "--font-atkinson",
+  weight: ["400", "700"],
   display: "swap"
 });
 
-const fontPadauk = Padauk({
-  subsets: ["latin"],
-  variable: "--font-padauk",
-  display: "swap",
-  weight: ["400", "700"]
-});
-
-const fontSourceCodePro = Source_Code_Pro({
-  subsets: ["latin"],
-  variable: "--font-sourcecode-pro",
-  display: "swap",
-});
-
 export default function RootLayout({ children }) {
-  const fonts = `${fontHeebo.variable} ${fontTemp.variable} ${fontPadauk.variable} ${fontSourceCodePro.variable}`;
+  const fonts = `${fontTemp.variable} ${fontAtkinson.variable}`;
 
   return (
     <html lang="en" className={fonts}>

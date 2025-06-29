@@ -18,7 +18,7 @@ body {
   display: grid;
   grid-template-columns: 48px 1fr;
   grid-template-rows: 1fr auto;
-  font-family: var(--font-padauk);
+  font-family: var(--font-atkinson);
   font-weight: normal;
   text-wrap: pretty;
   color: #fff;
