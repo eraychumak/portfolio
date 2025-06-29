@@ -10,7 +10,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Eray Chumak - Software Engineer",
-  description: "Experienced Software Engineer specializing in React, Next.js, and AWS. Building modern web applications with cutting-edge technologies. View my portfolio and development projects.",
+  description: "Experienced Software Engineer specialising in React, Next.js, and AWS. Building modern web applications with cutting-edge technologies. View my portfolio and development projects.",
   authors: [{ name: "Eray Chumak" }],
   creator: "Eray Chumak",
   publisher: "Eray Chumak",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: "https://eraychumak.dev",
     title: "Eray Chumak - Software Engineer",
-    description: "Experienced Software Engineer specializing in React, Next.js, and AWS. Building modern web applications with cutting-edge technologies.",
+    description: "Experienced Software Engineer specialising in React, Next.js, and AWS. Building modern web applications with cutting-edge technologies.",
     siteName: "Eray Chumak Portfolio",
     images: [
       {
