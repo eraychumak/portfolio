@@ -26,18 +26,13 @@ const structuredData: WithContext<Person> = {
     "HTML",
     "CSS"
   ],
-  hasOccupation: {
-    "@type": "Occupation",
-    name: "Software Engineer",
-    occupationLocation: {
-      "@type": "Country",
-      name: "United Kingdom"
-    },
-    skills: "React, NextJS, AWS, JavaScript, TypeScript",
-  },
   sameAs: [
     "https://eraychumak.dev",
-  ]
+  ],
+  alumniOf: {
+    "@type": "EducationalOrganization",
+    name: "Edge Hill University",
+  },
 }
 
 export default function SEO() {
