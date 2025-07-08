@@ -10,7 +10,6 @@ import CursorArrowRaysIcon from "@heroicons/react/24/outline/CursorArrowRaysIcon
 import ArrowTopRightOnSquareIcon from "@heroicons/react/24/outline/ArrowTopRightOnSquareIcon";
 import PencilIcon from "@heroicons/react/24/outline/PencilIcon";
 import EnvelopeIcon from "@heroicons/react/24/outline/EnvelopeIcon";
-// import UserIcon from "@heroicons/react/24/outline/UserIcon";
 
 import styles from "./Sidebar.module.css";
 
