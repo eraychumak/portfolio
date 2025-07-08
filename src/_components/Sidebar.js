@@ -44,6 +44,9 @@ export default function Sidebar() {
           <Link href="/projects/dev" className={isActive("/projects/dev", pathname)}>
             <CodeBracketIcon width="1.5rem"/>
           </Link>
+          <Link href="/writing" className={isActive("/writing", pathname)}>
+            <PencilIcon width="1.5rem"/>
+          </Link>
           <Link href="#">
             <CursorArrowRaysIcon width="1.5rem"/>
           </Link>
@@ -66,7 +69,7 @@ export default function Sidebar() {
             <CodeBracketIcon width="1rem"/>
             <p>Development</p>
           </Link>
-          <Link href="/writing">
+          <Link href="/writing" className={isActive("/writing", pathname)}>
             <PencilIcon width="1rem"/>
             <p>Writing</p>
           </Link>
