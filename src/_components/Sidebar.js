@@ -8,6 +8,7 @@ import HomeIcon from "@heroicons/react/24/outline/HomeIcon";
 import CodeBracketIcon from "@heroicons/react/24/outline/CodeBracketIcon";
 import CursorArrowRaysIcon from "@heroicons/react/24/outline/CursorArrowRaysIcon";
 import ArrowTopRightOnSquareIcon from "@heroicons/react/24/outline/ArrowTopRightOnSquareIcon";
+import PencilIcon from "@heroicons/react/24/outline/PencilIcon";
 import EnvelopeIcon from "@heroicons/react/24/outline/EnvelopeIcon";
 // import UserIcon from "@heroicons/react/24/outline/UserIcon";
 
@@ -65,6 +66,10 @@ export default function Sidebar() {
           <Link href="/projects/dev" className={isActive("/projects/dev", pathname)}>
             <CodeBracketIcon width="1rem"/>
             <p>Development</p>
+          </Link>
+          <Link href="/writing">
+            <PencilIcon width="1rem"/>
+            <p>Writing</p>
           </Link>
           <Link href="#">
             <CursorArrowRaysIcon width="1rem"/>
