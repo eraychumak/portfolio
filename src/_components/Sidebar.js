@@ -47,7 +47,7 @@ export default function Sidebar() {
           <Link href="/writing" className={isActive("/writing", pathname)}>
             <PencilIcon width="1.5rem"/>
           </Link>
-          <Link href="#">
+          <Link href="/designs">
             <CursorArrowRaysIcon width="1.5rem"/>
           </Link>
           <Link href="mailto:eraychumak_@outlook.com">
@@ -73,7 +73,7 @@ export default function Sidebar() {
             <PencilIcon width="1rem"/>
             <p>Writing</p>
           </Link>
-          <Link href="#">
+          <Link href="/designs" className={isActive("/designs", pathname)}>
             <CursorArrowRaysIcon width="1rem"/>
             <p>Designs/Graphics</p>
           </Link>

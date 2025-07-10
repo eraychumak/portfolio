@@ -1,0 +1,65 @@
+import Image from "next/image";
+import Link from "next/link";
+import styles from "../layout.module.css";
+
+import ProjectProps from "@/app/projects/_components/ProjectProps";
+import ProjectBadge from "@/app/projects/_components/ProjectBadge";
+
+<article>
+
+<ProjectBadge label="DRAFT"/>
+
+# The Malthouse Business Centre
+
+2024
+
+The Malthouse Business Centre, a family-run business, is situated in the heart of Ormskirk, Lancashire. Purchased in 1994 by the Lloyd family, this historic 19th-century building – once used for drying grain to make malt – has been lovingly renovated over the past two decades. Today, it offers high-quality office spaces and business units in a unique, characterful setting.
+
+<Image src="/assets/designs/the-malthouse-business-centre/physical_business.jpeg" width="1600" height="1200" alt="" className={styles.thumbnail}/>
+
+## Motivation
+
+I did this during my time at Edge Hill University where our tutor said pick a local business and create a design for them taking into consideration the user's needs, the business's goals, and the overall user experience. I wanted to create a design that would not only look good but also be functional and user-friendly. The goal was to enhance the online presence of The Malthouse Business Centre, making it easier for potential tenants to find information and get in touch with the business.
+
+## Discovery
+
+I started by researching the business and its target audience. I looked at the existing website and identified areas for improvement.
+
+Some of the key findings included:
+- The text contrast was poor, making it difficult to read, especially with the slideshow images.
+- There was no clear call to action, making it hard to determine the next steps.
+- The logo is bulky and not designed with mobile screens in mind.
+- It isn't clear what the offering is as the information was buried in the text.
+
+<table>
+  <thead>
+    <tr>
+      <th>Desktop</th>
+      <th>Mobile</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <div className={styles.longImage}>
+          <Image src="/assets/designs/the-malthouse-business-centre/the-malthouse-business-centre-home-before-desktop.png" width="1573" height="4096" alt=""/>
+        </div>
+      </td>
+      <td>
+        <div className={styles.longImage}>
+          <Image src="/assets/designs/the-malthouse-business-centre/the-malthouse-business-centre-home-mobile-before.png" width="462" height="8477" alt=""/>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Time to get cooking!
+
+One scope I set is to keep the design simple and clean, focusing on the key information that potential tenants would need. I wanted to ensure that the design was responsive and looked good on both desktop and mobile devices. I also did not want to stray too far from the original design to maintain some brand consistency and resemblance.
+
+### Colours
+
+I used Tailwind's super helpful [Colours](https://tailwindcss.com/docs/colors) documentation to pick out stronger colours that delivered better contrast and readability. I also used the [Contrast Checker](https://webaim.org/resources/contrastchecker/) to ensure that the colours met accessibility standards.
+
+</article>
