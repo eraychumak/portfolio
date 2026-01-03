@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/"
     },
-    sitemap: "https://eraychumak.dev/sitemap.xml",
+    sitemap: "https://eraykoschell.dev/sitemap.xml",
   }
 }

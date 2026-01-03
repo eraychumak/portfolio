@@ -20,7 +20,7 @@ export default function Home() {
             unoptimized
           />
         </article>
-        <h1>Eray Chumak</h1>
+        <h1>Eray Koschell</h1>
         <p className={styles.jobTitle}>Software Engineer</p>
         <p className={styles.degree}>BSc (Hons) Web Design & Development</p>
       </header>

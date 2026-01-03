@@ -3,30 +3,30 @@ import { Sansita_Swashed, Atkinson_Hyperlegible } from "next/font/google";
 
 import SEO from "@/_components/SEO";
 import Sidebar from "@/_components/Sidebar";
-import Footer from "@/_components/Footer";
+import { Footer } from "@/_components/Footer";
 
 import "./globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Eray Chumak - Software Engineer",
+  title: "Eray Koschell - Software Engineer",
   description: "Experienced Software Engineer specialising in React, Next.js, and AWS. Building modern web applications with cutting-edge technologies. View my portfolio and development projects.",
-  authors: [{ name: "Eray Chumak" }],
-  creator: "Eray Chumak",
-  publisher: "Eray Chumak",
+  authors: [{ name: "Eray Koschell" }],
+  creator: "Eray Koschell",
+  publisher: "Eray Koschell",
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://eraychumak.dev",
-    title: "Eray Chumak - Software Engineer",
+    url: "https://eraykoschell.dev",
+    title: "Eray Koschell - Software Engineer",
     description: "Experienced Software Engineer specialising in React, Next.js, and AWS. Building modern web applications with cutting-edge technologies.",
-    siteName: "Eray Chumak Portfolio",
+    siteName: "Eray Koschell Portfolio",
     images: [
       {
         url: "/pfp.avif",
         width: 400,
         height: 400,
-        alt: "Eray Chumak - Software Engineer",
+        alt: "Eray Koschell - Software Engineer",
       },
     ],
   },

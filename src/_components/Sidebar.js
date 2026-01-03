@@ -50,9 +50,6 @@ export default function Sidebar() {
           <Link href="/designs">
             <CursorArrowRaysIcon width="1.5rem"/>
           </Link>
-          <Link href="mailto:eraychumak_@outlook.com">
-            <EnvelopeIcon width="1.5rem"/>
-          </Link>
         </section>
       </section>
       <section className={styles.nav}>
@@ -78,23 +75,15 @@ export default function Sidebar() {
             <p>Designs/Graphics</p>
           </Link>
         </section>
-        <div className={styles.fill}/>
         <section>
-          <p className={styles.tag}>LINKS</p>
-          <Link href="https://www.linkedin.com/in/eray-chumak/" target="_blank" rel="noreferrer">
+          <p className={styles.tag}>PROFILES</p>
+          <Link href="https://www.linkedin.com/in/eray-koschell/" target="_blank" rel="noreferrer">
             <ArrowTopRightOnSquareIcon width="1rem"/>
-            <p>LinkedIn (@eray-chumak)</p>
+            <p>LinkedIn</p>
           </Link>
           <Link href="https://github.com/eraychumak" target="_blank" rel="noreferrer">
             <ArrowTopRightOnSquareIcon width="1rem"/>
-            <p>My GitHub (@eray_chumak)</p>
-          </Link>
-        </section>
-        <section>
-          <p className={styles.tag}>GET IN TOUCH</p>
-          <Link href="mailto:eraychumak_@outlook.com">
-            <EnvelopeIcon width="1rem"/>
-            <p>eraychumak_@outlook.com</p>
+            <p>GitHub</p>
           </Link>
         </section>
       </section>
