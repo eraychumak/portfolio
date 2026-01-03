@@ -86,6 +86,14 @@ export default function Sidebar() {
             <p>GitHub</p>
           </Link>
         </section>
+        <div className={styles.fill}/>
+        <section>
+          <p className={styles.tag}>GET IN TOUCH</p>
+          <Link href="mailto:ek.contact@atomicmail.io">
+            <EnvelopeIcon width="1rem"/>
+            <p>Send an email</p>
+          </Link>
+        </section>
       </section>
     </nav>
   );
