@@ -1,14 +1,43 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2rem;
   padding: 2rem;
+
+}
+.container hr {
+  width: 100%;
+  max-width: 60ch;
+  border-top: solid var(--color-border) 1px;
 }
 
 .header {
+  display: grid;
+  grid-template-areas:
+    "pfp"
+    "quickInfo";
+  justify-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 60ch;
+}
+
+.quickInfo {
   display: flex;
   flex-direction: column;
   gap: .5rem;
+  grid-area: quickInfo;
+  width: 100%;
+}
+
+.pfp {
+  grid-area: pfp;
+}
+
+.displayName {
+  width: 250px;
+  height: auto;
 }
 
 .jobTitle {
@@ -24,16 +53,18 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 100%;
+  max-width: 60ch;
 }
 
 .desc {
-  max-width: 50ch;
   font-size: 1.25rem;
   line-height: 2rem;
 }
 
 .quote {
-  max-width: 50ch;
+  width: 100%;
+  max-width: 60ch;
 }
 
 .pronounce {
@@ -50,20 +81,19 @@
 }
 
 .pfp {
-  width: 128px;
-  height: 128px;
+  width: 180px;
+  height: 180px;
   overflow: hidden;
-  border-radius: 25% 50% 25% 50%;
-  outline: solid #fff;
-  outline-offset: 2px;
-  outline-width: 2px;
+  border: solid white 4px;
+  border-radius: 50%;
+  background: url(../assets/manchester_skyline.webp);
+  background-position: 30% 30%;
+  background-size: cover;
 }
 
 .pfp img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 1rem;
+  height: auto;
 }
 
 .quote {
@@ -83,12 +113,20 @@
 }
 
 .shallWe {
-  max-width: 50ch;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 60ch;
+  width: 100%;
   font-size: 1.25rem;
 }
 
 @media screen and (min-width: 768px) {
   .container {
     padding: 4rem;
+  }
+
+  .displayName {
+    width: 300px;
   }
 }
